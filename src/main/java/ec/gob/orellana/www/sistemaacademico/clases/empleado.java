@@ -1,0 +1,37 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package ec.gob.orellana.www.sistemaacademico.clases;
+
+
+public class empleado extends PersonaInstitucional{
+    
+    //Atributos
+    private double sueldo;
+
+    //Constructor
+    public empleado(double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
+        super(correoInstitucional, nombre, id, correo, cedula);
+        this.sueldo = sueldo;
+    }
+
+    public void setSueldo(double sueldo) {
+        this.sueldo = sueldo;
+    }
+    public double getSueldo() {
+        return sueldo;
+    }
+    
+    public String agregarEmpleado(){
+        return"";
+    }
+
+    @Override
+    public String toString() {
+        return "empleado{" + "sueldo=" + sueldo + super.toString()+ '}';
+    }
+    
+    
+    
+}
