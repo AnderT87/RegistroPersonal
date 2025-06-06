@@ -33,7 +33,7 @@ public class SistemaAcademico {
         Estudiante estudiante = new Estudiante(2,"Pedro@espoch.edu.ec","Pedro",6,"pedro@gmail.com","758647687");
         System.out.println("Datos "+estudiante);
         
-        System.out.println("Datos del personal de servicio");
+        System.out.println("\nDatos del personal de servicio");
         PersonalServicios personalServicios = new PersonalServicios("Espoch Sede Orellana",8,"Josue@espoch.edu.ec","Josue",8,"Josue@gmail.com","9845623567");
         System.out.println("Datos "+personalServicios);
     }
