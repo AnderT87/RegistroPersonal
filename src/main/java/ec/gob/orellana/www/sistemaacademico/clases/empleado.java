@@ -5,13 +5,13 @@
 package ec.gob.orellana.www.sistemaacademico.clases;
 
 
-public class empleado extends PersonaInstitucional{
+public class Empleado extends PersonaInstitucional{
     
     //Atributos
     private double sueldo;
 
     //Constructor
-    public empleado(double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
+    public Empleado(double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
         super(correoInstitucional, nombre, id, correo, cedula);
         this.sueldo = sueldo;
     }

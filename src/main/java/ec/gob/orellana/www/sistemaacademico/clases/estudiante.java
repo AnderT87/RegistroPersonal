@@ -5,11 +5,11 @@
 package ec.gob.orellana.www.sistemaacademico.clases;
 
 
-public class estudiante extends PersonaInstitucional{
+public class Estudiante extends PersonaInstitucional{
     //Atributos
     private int codigo;
 
-    public estudiante(int codigo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
+    public Estudiante(int codigo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
         super(correoInstitucional, nombre, id, correo, cedula);
         this.codigo = codigo;
     }

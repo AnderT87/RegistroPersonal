@@ -4,10 +4,10 @@
  */
 package ec.gob.orellana.www.sistemaacademico.clases;
 
-public class personaInvitada extends Persona {
+public class PersonaInvitada extends Persona {
     
     //Constructor
-    public personaInvitada(String nombre, int id, String correo, String cedula){
+    public PersonaInvitada(String nombre, int id, String correo, String cedula){
         super(nombre, id, correo, cedula);
     }
 

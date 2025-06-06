@@ -8,9 +8,9 @@ package ec.gob.orellana.www.sistemaacademico.clases;
  *
  * @author SO-LAB-PC6
  */
-public class personalAcademico extends empleado {
+public class PersonalAcademico extends Empleado {
 
-    public personalAcademico(double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
+    public PersonalAcademico(double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
         super(sueldo, correoInstitucional, nombre, id, correo, cedula);
     }
     

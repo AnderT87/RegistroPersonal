@@ -5,10 +5,10 @@
 package ec.gob.orellana.www.sistemaacademico;
 import ec.gob.orellana.www.sistemaacademico.clases.Persona;
 import ec.gob.orellana.www.sistemaacademico.clases.PersonaInstitucional;
-import ec.gob.orellana.www.sistemaacademico.clases.empleado;
-import ec.gob.orellana.www.sistemaacademico.clases.estudiante;
-import ec.gob.orellana.www.sistemaacademico.clases.personaInvitada;
-import ec.gob.orellana.www.sistemaacademico.clases.personalServicios;
+import ec.gob.orellana.www.sistemaacademico.clases.Empleado;
+import ec.gob.orellana.www.sistemaacademico.clases.Estudiante;
+import ec.gob.orellana.www.sistemaacademico.clases.PersonaInvitada;
+import ec.gob.orellana.www.sistemaacademico.clases.PersonalServicios;
 public class SistemaAcademico {
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class SistemaAcademico {
         System.out.println("Datos"+persona.toString());
         
         System.out.println("\nDatos de la persona invitada");
-        personaInvitada personaInvitada = new personaInvitada("Castillo Juan",3,"Juan@gmail.com","254864563");
+        PersonaInvitada personaInvitada = new PersonaInvitada("Castillo Juan",3,"Juan@gmail.com","254864563");
         System.out.println("Datos"+personaInvitada.toString());
         
         System.out.println("\nDatos Personal Institucional");
@@ -26,15 +26,15 @@ public class SistemaAcademico {
         System.out.println("Datos "+PersonaInstitucional.toString());
         
         System.out.println("\nDatos del empleado");
-        empleado empleado = new empleado(850,"Ander@espoch.edu.ec","Ander",1,"ander@gmail.com","200476589");
+        Empleado empleado = new Empleado(850,"Ander@espoch.edu.ec","Ander",1,"ander@gmail.com","200476589");
         System.out.println("Datos "+empleado.toString());
         
         System.out.println("\nDatos del estudiante");
-        estudiante estudiante = new estudiante(2,"Pedro@espoch.edu.ec","Pedro",6,"pedro@gmail.com","758647687");
+        Estudiante estudiante = new Estudiante(2,"Pedro@espoch.edu.ec","Pedro",6,"pedro@gmail.com","758647687");
         System.out.println("Datos "+estudiante);
         
         System.out.println("Datos del personal de servicio");
-        personalServicios personalServicios = new personalServicios("Espoch Sede Orellana",8,"Josue@espoch.edu.ec","Josue",8,"Josue@gmail.com","9845623567");
+        PersonalServicios personalServicios = new PersonalServicios("Espoch Sede Orellana",8,"Josue@espoch.edu.ec","Josue",8,"Josue@gmail.com","9845623567");
         System.out.println("Datos "+personalServicios);
     }
 }

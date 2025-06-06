@@ -8,6 +8,6 @@ package ec.gob.orellana.www.sistemaacademico.clases;
  *
  * @author SO-LAB-PC6
  */
-public class decanos {
+public class Decanos {
     
 }
