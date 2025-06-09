@@ -5,7 +5,7 @@
 package ec.gob.orellana.www.sistemaacademico.clases;
 
 
-public class PersonaInstitucional extends Persona{
+public abstract class PersonaInstitucional extends Persona{
     //Atributos
     private String correoInstitucional;
 
@@ -16,23 +16,14 @@ public class PersonaInstitucional extends Persona{
     }
     
     //Metodos Set y Get
-
-    public void setCorreoInstitucional(String correoInstitucional) {
-        this.correoInstitucional = correoInstitucional;
-    }
-
-    public String getCorreoInstitucional() {
-        return correoInstitucional;
-    }
     
-    public String agregarPersonalInstitucional(){
-        return "";
-    }
-
+    public abstract boolean verificarCedula ();
+    
     @Override
     public String toString() {
         return "PersonaInstitucional{" + "correoInstitucional=" + correoInstitucional + super.toString()+'}';
     }
+    
     
     
     

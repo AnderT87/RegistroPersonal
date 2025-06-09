@@ -27,11 +27,15 @@ public class PersonalServicios extends Empleado{
     public String agregarPersonalServicio(){
         return "";
     }
+    public boolean verificarCedula (){
+        return true; 
+    }
 
     @Override
     public String toString() {
         return "personalServivcios{" + "gremio=" + gremio + super.toString()+'}';
     }
+    
     
     
 }

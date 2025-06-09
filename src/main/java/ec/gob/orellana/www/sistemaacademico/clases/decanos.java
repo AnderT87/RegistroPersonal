@@ -4,10 +4,32 @@
  */
 package ec.gob.orellana.www.sistemaacademico.clases;
 
-/**
- *
- * @author SO-LAB-PC6
- */
-public class Decanos {
+public class Decanos extends PersonalAcademico {
+    private String nivelJerarquico; 
+
+    public Decanos(String nivelJerarquico, double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
+        super(sueldo, correoInstitucional, nombre, id, correo, cedula);
+        this.nivelJerarquico = nivelJerarquico;
+    }
+
+    
+
+    public String getNivelJerarquico() {
+        return nivelJerarquico;
+    }
+
+    public void setNivelJerarquico(String nivelJerarquico) {
+        this.nivelJerarquico = nivelJerarquico;
+    }
+ 
+    public boolean verificarCedula (){
+        return true; 
+    }
+
+    @Override
+    public String toString() {
+        return "Decanos{" + "nivelJerarquico=" + nivelJerarquico + '}';
+    }
+    
     
 }

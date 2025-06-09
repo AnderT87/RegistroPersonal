@@ -15,7 +15,11 @@ public class PersonaInvitada extends Persona {
     public String agregarpersonaInvitada() {
         return "";
     }
-
+    
+    public boolean verificarCedula (){
+        return true; 
+    }
+    
     @Override
     public String toString() {
         return "Persona Invitada {" + super.toString()+ '}';

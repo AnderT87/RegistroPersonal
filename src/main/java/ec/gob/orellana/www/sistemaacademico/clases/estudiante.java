@@ -22,15 +22,20 @@ public class Estudiante extends PersonaInstitucional{
         return codigo;
     }
     
-    public String agregarEmpleado(){
+    public String agregarEstudiante(){
         return "";
     }
-
+    
+    public boolean verificarCedula (){
+        return true; 
+    }
+    
     @Override
     public String toString() {
         return "estudiante{" + "codigo=" + codigo + super.toString()+ '}';
     }
     
+
     
     
 }

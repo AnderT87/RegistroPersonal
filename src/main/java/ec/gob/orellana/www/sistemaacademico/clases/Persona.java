@@ -8,7 +8,7 @@ package ec.gob.orellana.www.sistemaacademico.clases;
  *
  * @author SO-LAB-PC6
  */
-public class Persona {
+public abstract class Persona {
  private String nombre;
  private int id;
  private String correo;
@@ -23,35 +23,10 @@ public class Persona {
         this.cedula = cedula;
     }
  
-// Get y Set
+// Getters and Setters
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public void setCorreo(String correo) {
-        this.correo = correo;
-    }
-    public void setCedula(String cedula) {
-        this.cedula = cedula;
-    }
+    abstract boolean verificarCedula (); 
 
-    
-    public String getNombre() {
-        return nombre;
-    }
-    public int getId() {
-        return id;
-    }
-    public String getCorreo() {
-        return correo;
-    }
-    public String getCedula() {
-        return cedula;
-    }
-    
     //Metodo
 
     @Override
@@ -59,7 +34,5 @@ public class Persona {
         return "Persona {" + "nombre=" + nombre + ", id=" + id + ", correo=" + correo + ", cedula=" + cedula + '}';
     }
     
-    public String agregarPersonal(){
-        return "";
-    }
+
 }

@@ -5,7 +5,7 @@
 package ec.gob.orellana.www.sistemaacademico.clases;
 
 
-public class Empleado extends PersonaInstitucional{
+public abstract class Empleado extends PersonaInstitucional{
     
     //Atributos
     private double sueldo;
@@ -15,18 +15,8 @@ public class Empleado extends PersonaInstitucional{
         super(correoInstitucional, nombre, id, correo, cedula);
         this.sueldo = sueldo;
     }
-
-    public void setSueldo(double sueldo) {
-        this.sueldo = sueldo;
-    }
-    public double getSueldo() {
-        return sueldo;
-    }
     
-    public String agregarEmpleado(){
-        return"";
-    }
-
+    public abstract boolean verificarCedula ();
     @Override
     public String toString() {
         return "empleado{" + "sueldo=" + sueldo + super.toString()+ '}';
