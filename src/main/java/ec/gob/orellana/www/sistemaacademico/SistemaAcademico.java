@@ -3,13 +3,8 @@
  */
 
 package ec.gob.orellana.www.sistemaacademico;
-import ec.gob.orellana.www.sistemaacademico.clases.Decanos;
-import ec.gob.orellana.www.sistemaacademico.clases.Persona;
-import ec.gob.orellana.www.sistemaacademico.clases.PersonaInstitucional;
-import ec.gob.orellana.www.sistemaacademico.clases.Empleado;
-import ec.gob.orellana.www.sistemaacademico.clases.Estudiante;
-import ec.gob.orellana.www.sistemaacademico.clases.PersonaInvitada;
-import ec.gob.orellana.www.sistemaacademico.clases.PersonalServicios;
+import ec.gob.orellana.www.sistemaacademico.clases.*;
+
 public class SistemaAcademico {
 
     public static void main(String[] args) {
@@ -32,5 +27,9 @@ public class SistemaAcademico {
         System.out.println("\n Datos del Decano");
         Decanos decanos = new Decanos ("01", 3000, "xaviertoala@espoch.edu.ec", "Xavier", 10, "xaviertoala10@gmail", "225002588");
         System.out.println("Datos: "+decanos.toString());
+
+        System.out.println("\n Datos del Profesor: ");
+        Profesores profesores = new Profesores(Escalafon.PRINCIPAL, 800,"profejulio@espoch", "Julio", 2021, "julio10@gmail", "22500060");
+        System.out.println("Datos: "+profesores.toString());
     }
 }

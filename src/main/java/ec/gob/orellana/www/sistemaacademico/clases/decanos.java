@@ -28,8 +28,8 @@ public class Decanos extends PersonalAcademico {
 
     @Override
     public String toString() {
-        return "Decanos{" + "nivelJerarquico=" + nivelJerarquico + '}';
+        return "Decanos{" +
+                "nivelJerarquico= " + nivelJerarquico +" " + super.toString() +
+                '}';
     }
-    
-    
 }

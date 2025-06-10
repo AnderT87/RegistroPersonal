@@ -26,7 +26,6 @@ public class Profesores extends PersonalAcademico{
 
     @Override
     public String toString() {
-        return "Profesores{" + "escalafon=" + escalafon + '}';
+        return "Profesores{" + "escalafon=" + escalafon + " " + super.toString() + '}';
     }
-    
 }
