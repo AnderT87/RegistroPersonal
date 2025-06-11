@@ -4,8 +4,10 @@
  */
 package ec.gob.orellana.www.sistemaacademico.clases;
 
+import ec.gob.orellana.www.sistemaacademico.clases.personas.Persona;
 
-public abstract class PersonaInstitucional extends Persona{
+
+public  class PersonaInstitucional extends Persona{
     //Atributos
     private String correoInstitucional;
 
@@ -17,7 +19,7 @@ public abstract class PersonaInstitucional extends Persona{
     
     //Metodos Set y Get
     
-    public abstract boolean verificarCedula ();
+    //public abstract boolean verificarCedula ();
     
     @Override
     public String toString() {

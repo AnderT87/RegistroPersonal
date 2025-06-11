@@ -8,13 +8,13 @@ package ec.gob.orellana.www.sistemaacademico.clases;
  *
  * @author SO-LAB-PC6
  */
-public abstract class PersonalAcademico extends Empleado {
+public class PersonalAcademico extends Empleado {
 
     public PersonalAcademico(double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
         super(sueldo, correoInstitucional, nombre, id, correo, cedula);
     }
     
-    public abstract boolean verificarCedula(); 
+    // public abstract boolean verificarCedula(); 
 
     @Override
     public String toString() {

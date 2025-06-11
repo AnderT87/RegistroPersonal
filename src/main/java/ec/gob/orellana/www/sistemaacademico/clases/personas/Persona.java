@@ -2,13 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ec.gob.orellana.www.sistemaacademico.clases;
+package ec.gob.orellana.www.sistemaacademico.clases.personas;
 
-/**
- *
- * @author SO-LAB-PC6
- */
-public abstract class Persona {
+public class Persona {
  private String nombre;
  private int id;
  private String correo;
@@ -23,11 +19,9 @@ public abstract class Persona {
         this.cedula = cedula;
     }
  
-// Getters and Setters
-
-    abstract boolean verificarCedula (); 
-
     //Metodo
+    
+    //abstract boolean verificarCedula (); 
 
     @Override
     public String toString() {
