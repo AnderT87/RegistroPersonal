@@ -5,7 +5,9 @@
 package ec.gob.orellana.www.sistemaacademico.clases;
 
 
-public abstract class PersonaInstitucional extends Persona{
+import ec.gob.orellana.www.sistemaacademico.Persona.Persona;
+
+public abstract class PersonaInstitucional extends Persona {
     //Atributos
     private String correoInstitucional;
 

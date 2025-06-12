@@ -1,10 +1,19 @@
 
-package ec.gob.orellana.www.sistemaacademico.clases;
+package ec.gob.orellana.www.sistemaacademico.Profesor;
 
 
-public class Profesores extends PersonalAcademico{
-    private Escalafon escalafon; 
+import ec.gob.orellana.www.sistemaacademico.clases.PersonalAcademico;
 
+public class Profesores  {
+    //private Escalafon escalafon;
+
+    public String agregarProfesor (){
+        return "";
+    }
+    public boolean verificarCedula (){
+        return true;
+    }
+/*
     public Profesores(Escalafon escalafon, double sueldo, String correoInstitucional, String nombre, int id, String correo, String cedula) {
         super(sueldo, correoInstitucional, nombre, id, correo, cedula);
         this.escalafon = escalafon;
@@ -16,16 +25,12 @@ public class Profesores extends PersonalAcademico{
     public Escalafon getEscalafon() {
         return escalafon;
     }
-    
-    public String agregarProfesor (){
-        return "";
-    }
-    public boolean verificarCedula (){
-        return true; 
-    }
+
 
     @Override
     public String toString() {
         return "Profesores{" + "escalafon=" + escalafon + " " + super.toString() + '}';
     }
+
+ */
 }
